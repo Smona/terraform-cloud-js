@@ -1,0 +1,39 @@
+{
+  "name": "terraform-cloud-js",
+  "version": "0.0.1",
+  "description": "The missing Javascript/Typescript SDK for the Terraform Cloud API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smona/terraform-cloud-js.git"
+  },
+  "keywords": [
+    "terraform",
+    "cloud",
+    "js",
+    "javascript",
+    "node",
+    "api",
+    "sdk"
+  ],
+  "author": "Mason Bourgeois",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Smona/terraform-cloud-js/issues"
+  },
+  "homepage": "https://github.com/Smona/terraform-cloud-js#readme",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "camelcase": "^5.3.1",
+    "decamelize": "^3.2.0"
+  }
+}
